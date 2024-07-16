@@ -27,7 +27,7 @@ position: relative;
     position: static;
     margin-top: 50px;
     right: 300px;
-    max-width: 50%;
+    width: 400px;
     height: 400px;
     margin-bottom: 20px;
     background-color: rgb(235, 228, 140);
@@ -61,6 +61,7 @@ p {
 #films {
     list-style-type: none;
     position: absolute;
+    padding: 0;
     left: 100px;
     width: 250px;
     height: 600px;
