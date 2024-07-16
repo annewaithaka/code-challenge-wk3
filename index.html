@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" href="index.css"><!-- Link to external CSS file -->
+</head>
+<body>
+    <div class="head">    
+        <h1 style="font-size: 50px; text-align: center;">Flatiron Movie Theater</h1>
+    </div>
+    <div class="maindiv"> <!-- Main content container -->
+    <div id="movie-details"> <!-- Movie details section -->
+        <div id="poster-container">
+            <img id="poster" src="" alt="Movie Poster"> <!-- Movie poster image -->
+        </div>
+        <div id="details-container">
+            <h2 id="movie-title"></h2>  <!-- Placeholder for movie title -->
+            <p><strong>Runtime:</strong> <span id="runtime"></span> minutes</p> <!-- Movie runtime display -->
+            <p><strong>Showtime:</strong> <span id="showtime"></span></p> <!-- Showtime display -->
+            <p><strong>Available Tickets:</strong> <span id="available-tickets"></span></p> <!-- Available tickets count -->
+            <button id="buy-ticket-btn">Buy Ticket</button> <!-- Button to buy tickets -->
+        </div>
+    </div>
+
+    <ul id="films" class="film-list">
+        <!-- List of films will be dynamically populated here -->
+    </ul>
+    </div>
+
+    <script src="index.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
